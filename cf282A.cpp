@@ -38,8 +38,8 @@ string s;
 for(int i=0;i<n;++i)
 {
 cin>>s;
-if(s[i]=='+') x++;
-else if(s[i]=='-') x--;
+if(s[1]=='+') x++;
+else if(s[1]=='-') x--;
 }
 cout<<x;
 return 0;
